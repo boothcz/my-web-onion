@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cong Zhang - Chicago Booth</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .header-bg {
+            background-color: #800000;
+        }
+
+        .bg-image {
+            background-image: url('Booth_background.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .overlay {
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        .booth-maroon {
+            color: #800000;
+        }
+
+        .list-circle {
+            list-style-type: circle;
+        }
+
+        .section {
+            display: none;
+        }
+
+        .section.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header-bg text-white">
+        <div class="container mx-auto flex items-center justify-between py-4">
+            <div class="flex items-center">
+                <div class="bg-white rounded-full p-3">
+                    <span class="booth-maroon font-bold text-xl">CZ</span>
+                </div>
+                <div class="ml-4">
+                    <span class="text-2xl font-bold">Cong Zhang </span>
+                </div>
+            </div>
+            <nav class="flex space-x-4">
+                <a href="#" class="nav-link hover:underline" data-target="main">Home</a>
+                <a href="Cong_Zhang_cv.pdf" class="hover:underline">CV</a>
+                <a href="#bio" class="nav-link hover:underline" data-target="bio">Bio</a>
+                <a href="#research" class="nav-link hover:underline" data-target="research">Research</a>
+                <a href="#teaching" class="nav-link hover:underline" data-target="teaching">Teaching</a>
+                <a href="#services" class="nav-link hover:underline" data-target="services">Awards</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto my-8 bg-image p-8 rounded-lg shadow-lg">
+        <div id="main" class="section active">
+        <div class="overlay p-8 shadow-md rounded-lg flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2">
+                <h1 class="text-4xl lbs-blue font-bold">Cong Zhang </h1>
+                <p class="text-lg mt-2">PhD Candidate <br> The University of Chicago
+                    Booth School of Business </p>
+                <hr class="border-t-2 border-blue-600 my-4 w-1/3">
+                <div class="text-left">
+                    <p><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2993035"
+                            class="lbs-blue hover:underline mr-2"><i class="fas fa-graduation-cap"></i>&nbsp;SSRN</a>
+                    <p>
+                    <p><a href="https://www.linkedin.com/in/cong-zhang12/"
+                            class="lbs-blue hover:underline mr-2"><i
+                                class="fab fa-linkedin"></i>&nbsp;&nbsp;LinkedIn</a>
+                    <p>
+                    <p><a href="https://x.com/CongZha83320122" class="lbs-blue hover:underline"><i
+                                class="fab fa-twitter"></i>&nbsp;&nbsp;X.com</a></p>
+                    <p> <br> </p>
+                    <p><a href="mailto:czhang12@chicagobooth.edu" class="hover:underline"><i
+                                class="fas fa-envelope"></i>&nbsp;czhang12@chicagobooth.edu</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i>&nbsp;5807 S Woodlawn Ave, Chicago, IL 60637</a></p>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-4 md:mt-0 md:ml-8">
+                <img src="profile.jpg" alt="Cong Zhang" class="w-7/12 rounded-lg shadow-md">
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <div id="bio" class="section container mx-auto my-8">
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h1 class="text-4xl booth-maroon font-bold mb-4">Biography</h1>
+            <p class="text-lg mt-2">
+                Cong Zhang is a PhD candidate at the University of Chicago Booth School of
+                Business, under the supervision of <a
+                    href="https://www.chicagobooth.edu/faculty/directory/c/george-m-constantinides"
+                    class="hover:underline">Prof. George M. Constantinides</a>, <a
+                    href="https://www.chicagobooth.edu/faculty/directory/h/lars-hansen"
+                    class="hover:underline">Prof. Lars P. Hansen</a>, <a
+                    href="https://www.chicagobooth.edu/faculty/directory/s/chad-syverson"
+                    class="hover:underline">Prof. Chad Syverson</a>, and <a
+                    href="https://www.chicagobooth.edu/faculty/directory/r/jeffrey-r-russell"
+                    class="hover:underline">Prof. Jeffrey R. Russell</a>. </p>
+
+                <p class="text-lg mt-2"> During his PhD journey, he has become the first PhD candidate from Chicago Booth to earn a Master of Legal Studies degree from the University of Chicago Law School and also obtained an MBA degree from the University of Chicago Booth School of Business. He earned his Bachelor's degree with a triple major in 
+                <a                    href="https://lsa.umich.edu/math" class="hover:underline">Mathematics</a>, honors
+                <a
+                    href="https://lsa.umich.edu/econ" class="hover:underline">Economics</a>, <a
+                    href="https://lsa.umich.edu/stats" class="hover:underline">Statistics</a> from University of Michigan.
+            </p>
+
+            <p class="text-lg mt-2">
+                Cong Zhang's research lies at the intersection of empirical finance and financial regulation, focusing on how regulatory frictions and relevant economic uncertainties influence asset pricing. His education at the University of Chicago Booth School of Business and the University of Chicago Law School has deeply shaped his academic perspective, endowing him with a thorough grasp of both financial and legal principles. This interdisciplinary background empowers him to address intricate issues that arise at the nexus of financial markets and regulatory frameworks, aiming to decode their complex dynamics.
+            </p>
+        </div>
+    </div>
+
+    <div id="research" class="section container mx-auto my-8">
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h1 class="text-4xl booth-maroon font-bold mb-4">RESEARCH</h1>
+            <h2 class="text-2xl text-gray-800 font-bold mt-4">JOB MARKET PAPER</h2>
+            <P class="text-lg font-bold mt-2">Asset Pricing in Digital Economy with Regulatory Shifts</P>
+            <p class="text-lg mt-2">Abstract: This study delves into the relationship between data-induced market concentration rise and total factor productivity (TFP) growth through the lens of the digital economy. We aim to evaluate the extent to which regulatory uncertainties are priced, by incorporating the non-rivalry and externalities triggered by digital capital while embracing various forms of regulatory changes including data privacy laws and command-and-control regulations. We employ a novel Bayesian methodology developed by Gao and Zhang (2023) to incorporate potential non-stationarities in the risk prices associated with rising market concentration. Our findings reveal a consistent annual negative premium of 3.5% since 2004, coinciding with the growth of data-driven markets. Additionally, the study examines the pronounced effects of regulatory modifications on asset pricing. In particular, we demonstrate how the dynamics of risk pricing can be rationalized collectively by data privacy law and command-and-control regulations.
+            </p>
+
+            
+            <h2 class="text-2xl text-gray-800 font-bold mt-4">PUBLICATIONS</h2>
+            <P class="text-lg mt-2"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0927539823000749"
+                class="hover:underline font-bold">The Effects of Economic Uncertainty on Financial Volatility: A Comprehensive Investigation</a>, (2023), with Zhuo Huang, Tianyi Wang, and Chen Tong. <em>Journal of Empirical Finance</em>, Volume 73, September 2023, Pages 369-389. 
+            </P>
+
+
+            <h2 class="text-2xl text-gray-800 font-bold mt-4">WORKING PAPERS</h2>
+            <P class="text-lg mt-2"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4545015"
+                class="hover:underline font-bold">Optimizing Return Forecasts: A Bayesian Intermediary Asset Pricing Approach</a>, (2024), with Ming Gao. Under Review.
+            </P>
+            <ul class="list-disc ml-8 mt-2 text-lg">
+                <li class="mt-1">Winner of the 2024 Arnold Zellner Doctoral Prize</li>
+            </ul>
+
+            <P class="text-lg mt-2"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4781453"
+                class="hover:underline font-bold">Impact of AI Adoption on Economic Dynamics through Habit Formation: Decision Making and Asset Pricing</a>, (2024). Under Review.  
+            </P>
+            
+            <P class="text-lg mt-2"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4715309"
+                class="hover:underline font-bold">Synchronized Shifts: Decoding the Co-movement of Stock and Bitcoin Returns</a>, (2024).
+            </P>
+
+            <h2 class="text-2xl text-gray-800 font-bold mt-4">WORKS IN PROGRESS</h2>
+            <P class="text-lg mt-2"> <b>Optimal Trading Strategy for Long-Term Investment via IV-Q-learning with Noisy Instruments</b>, (2023), with Yueyang Zhong.
+            </P>
+
+            <P class="text-lg mt-2"> <b>Corporate Bond Pricing with Bayesian Intermediary Asset Pricing Approach</b>, (2024), with Ming Gao, Ben Marrow, and Steven Wu.
+                </P>
+            
+        </div>
+    </div>
+
+    <div id="teaching" class="section container mx-auto my-8">
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h1 class="text-4xl booth-maroon font-bold mb-4">TEACHING</h1>
+            <h2 class="text-2xl text-gray-800 font-bold mt-4">The University of Chicago Booth School of Business</h2>
+            <p class="text-lg mt-2"> TA for Executive M.B.A Business Statistics (Instructor: Prof. Jefferey Russell): Spring 2022
+                <ul class="list-disc ml-8 mt-2 text-lg">
+                    <li class="mt-1"> Evaluation 4.7/5 </li>
+                </ul>
+            </p>
+            <p class="text-lg mt-2"> TA for Executive M.B.A Investment (Instructor: Prof. John Heaton): Fall 2019
+                <ul class="list-disc ml-8 mt-2 text-lg">
+                    <li class="mt-1"> Evaluation 4.5/5 </li>
+                </ul>
+            </p>
+            <p class="text-lg mt-2"> TA for Ph.D Time-series Analysis (Instructor: Prof. Jefferey Russell): Winter 2018-2021
+            </p>
+        </div>
+    </div>
+
+    <div id="services" class="section container mx-auto my-8">
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h1 class="text-4xl booth-maroon font-bold mb-4">AWARDS</h1>
+            <p class="text-lg mt-2"> Winner of the 2024 Arnold Zellner Doctoral Prize, Chicago Booth <br>
+                MLS Full Tuition Waiver and Stipend (Inaugural Recipient), University of Chicago Law School <br>
+                Stevens Doctoral Program Research Funding Support, Chicago Booth <br>
+                Doctoral Program Research Funding Support, Chicago Booth <br>
+                The Eugene Fama Endowed Ph.D. Fellowship, Chicago Booth <br>
+                The Beryl W. Sprinkel Ph.D. Stipend, Chicago Booth <br>
+                Financial Economics of InsuranceWorkshop Grant, Bendheim Center for Finance at Princeton <br>
+                Chicago Booth Ph.D. Fellowship, Chicago Booth <br>
+                Phi Beta Kappa, University of Michigan <br>
+                James B. Angell Scholar, University of Michigan <br>
+                High Honors and High Distinction, University of Michigan
+            </p>
+        </div>
+    </div>
+
+    
+
+    <footer class="bg-gray-100 py-4 mt-8">
+        <div class="container mx-auto flex justify-between items-center">
+            <img src="booth-logo.png" alt="Chicago Booth Logo" class="h-16">
+            <div class="text-right">
+                <p class="text-lg font-bold">CONG ZHANG</p>
+                <p><a href="mailto:yzhong@london.edu" class="hover:underline">czhang12@chicagobooth.edu</a> <br> 5807 S Woodlawn Ave, Chicago, IL 60637 </p>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script>
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelectorAll('.section').forEach(section => {
+                    section.classList.remove('active');
+                });
+                const target = document.querySelector(`#${this.dataset.target}`);
+                if (target) {
+                    target.classList.add('active');
+                    window.scrollTo({
+                        top: target.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+    
+</body>
+
+</html>
